@@ -1,0 +1,343 @@
+#collapsenavbar ul li a:hover
+
+{
+    background-color: grey;
+    color: black;
+    padding:15px;
+    font-size: 20px;
+    
+}
+
+#collapsenavbar ul li a
+{
+    padding:15px;
+    font-size: 20px;
+}
+.bgimg
+
+{
+
+    background-image: url('../images/code.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width : 100%;
+    height : 760px;
+    
+}
+
+
+.headerset
+{
+    padding-top: 250px;
+    box-sizing : border-box;
+}
+
+.headerset h2
+{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.headerset h1
+{
+    font-size: 62px;
+   
+}
+
+.aboutus
+{
+    padding: 140px 0px 60px;
+    height: 700px;
+}
+
+.rowsetting
+{
+    margin: 80px 0px !important;
+}
+
+.aboutus h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.aboutus h2
+{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.imgsetting
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-code
+{
+    margin-top: 25px;
+}
+.fa-bug
+{
+    margin-top: 25px;
+}
+.fa-credit-card
+{
+    margin-top: 25px;
+}
+
+.rowsetting p
+{
+    color: darkblue;
+    padding: 10px;
+}
+
+.rowsetting h2
+{
+    margin-top : 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.prize
+{
+    height : 1100px;
+    width: 100%;
+    padding : 80px 0px 50px;
+    
+}
+.card{
+    margin-top : 40px;
+   
+}
+
+.card img
+{
+    height : 200px;
+    width : 350px;
+}
+
+.prize h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.partner
+{
+    height: 1000px;
+    padding: 130px 100px 100px;
+    width : 100%;
+    background-color: ghostwhite;
+}
+
+.partner h1
+{
+    font-size:50px;
+    font-weight: bold;
+}
+
+
+.partner h4
+{
+    font-size:30px;
+    font-weight: bold;
+    color: navy;
+}
+
+.teamsetting
+{
+    margin-top: 170px;
+}
+
+.contact
+{
+    height: 400px;
+    font-weight: 100%;
+    background-color: rgb(27, 85, 160);
+}
+.contact h3
+{
+    padding-top: 80px;
+    color: ghostwhite;
+    font-size: 35px;
+}
+
+.contact p
+{
+    color:ghostwhite;
+    font-size: 25px;
+}
+
+
+.contact p a
+{
+    color:ghostwhite;
+    font-size: 25px;
+}
+
+
+.contact p a:hover
+{
+    color: lightsalmon;
+}
+
+.footer
+{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+
+}
+
+.footer h6
+{
+    color: ghostwhite;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.footer h6 a
+{
+    color: ghostwhite;
+    font-size:15px;
+}
+
+.footer h6 a:hover
+{
+    color: lightgray;
+    font-size:15px;
+}
+
+
+
+@media(min-width: 992px)
+{
+
+}
+
+@media(min-width: 768px)  and (max-width: 991px)
+{
+
+
+}
+
+@media(min-width: 575px) and (max-width: 767 px)
+{
+
+
+}
+
+@media(min-width: 460px) and (max-width: 574 px)
+{
+    .headerset h2
+    {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .headerset h1
+    {
+        font-size: 42px;
+       
+    }
+    .aboutus
+    {
+        padding: 100px 0px 60px;
+        height: 1000px;
+    }
+    
+    .partner
+    {
+        height: 2200px;
+        padding: 200px 100px 200px;
+        width : 100%;
+        background-color: ghostwhite;
+    }
+    .prize
+    {
+        height : 2200px;
+        width: 100%;
+        padding : 200px 0px 300px;
+        
+    }
+    
+    .footer
+    {
+        width: 100%;
+        height: 130px;
+        background-color: black;
+    
+    }
+
+}
+
+@media(max-width: 479px) 
+{
+.headerset h2
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.headerset h1
+{
+    font-size: 42px;
+   
+}
+.aboutus
+{
+    padding: 100px 0px 60px;
+    height: 1200px;
+}
+
+.partner
+{
+    height: 2300px;
+    padding: 200px 100px 200px;
+    width : 100%;
+    background-color: ghostwhite;
+}
+.prize
+{
+    height : 2500px;
+    width: 100%;
+    padding : 200px 0px 300px;
+    
+}
+
+.footer
+{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+
+}
+
+}
+
+
+/*.active
+{
+
+    background-color: grey;
+    color: black;
+    padding:10px;
+    font-size: 20px;
+    
+}*/
+
+
+.card-header h2
+{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.card-header
+{
+    margin: 30px;
+}
